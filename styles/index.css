@@ -186,8 +186,21 @@ main .desc{
 .card{
     display: flex;
     flex-direction: column;
-    border: 1px solid;
-    width: 120px;
+    /* border: 1px solid; */
+    width: 105px;
     height: 150px;
     border-radius: 10px;
+}
+
+.card .image{
+    height: 100px;
+    width: 105px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-img{
+    height: inherit;
+    width: inherit;
+    border: inherit;
+    border-radius: inherit;
 }
