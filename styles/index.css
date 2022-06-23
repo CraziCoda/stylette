@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.container .bg-image{
+    width: 100%;
+    height: 250px;
+    position: fixed;
+    z-index: -1;
+    display: block;
+    background-image: url("../assets/images/img2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    filter: brightness(0.9) blur(2px);
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background:  transparent;
+    justify-content: space-between;
+}
+
+header .h-left{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: normal;
+    color: pink;
+    text-shadow: 0 0 5px black;
+}
+
+header .h-right{
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: normal;
+    color: black;
+    text-shadow: 0 0 5px white;
+}
+
+.intro{
+    text-align: center;
+    height: 200px;
+}
+
+.intro .title{
+    font-size: 40px;
+    font-weight: 900;
+    margin: 20px 0;
+    color: pink;
+    text-shadow: 5px 5px 5px black;
+    font-family: cursive;
+}
+
+.intro .info{
+    text-align: center;
+    font-size: small;
+    width: 270px;
+    margin: 10px 0;
+    color: #ebe8e8;
+}
+
+.intro .show{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid;
+    margin-top: 10px;
+    color: white;
+}
+
+.intro .show:active{
+    background-color: pink;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    background-color: #fff;
+    z-index: 2;
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+main .desc{
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info{
+    text-align: center;
+    font-size: small;
+    width: 270px;
+    margin: 10px 0;
+    color: #000;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.icon-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: orange;
+}
+
+.icon-info .fa{
+    font-size: 20px;
+}
+
+.icon-info span{
+    color: rgb(78, 78, 78);
+    font-size: small;
+    font-weight: lighter;
+}
+
+.categories{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.type{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.type .name{
+    font-size: large;
+    font-weight: bold;
+}
+
+.type .extra{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: small;
+
+}
+
+.type .extra a{
+    font-size: small;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #aaa;
+}
+
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    width: 100px;
+    height: 120px;
+    border-radius: 10px;
+}
